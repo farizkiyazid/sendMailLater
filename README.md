@@ -17,10 +17,10 @@ flask db upgrade
 - after that you'll need to fix the config with your own email
 
 # The app endpoints
-/ or /index for homepage
+- for homepage : / or /index
 
-/email for POST form
+- for POST form : /email
 
-/save_emails for the POST endpoint
+- for the POST endpoint : /save_emails
 
 - you can also use /save_emails directly with POST
