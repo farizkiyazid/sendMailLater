@@ -1,0 +1,7 @@
+{% extends "base.html" %} {% block content %}
+<p>Disini tempat post email</p>
+<form action="/save_emails" method="POST">
+    Email Subject: <input type="text" name="email_subject"><br> Email Content: <input type="text" name="email_content"><br> Time: <input type="datetime-local" name="timestamp"><br>
+    <input type="submit" value="Submit"><br>
+</form>
+{% endblock %}
