@@ -2,25 +2,25 @@
 Flask app that sends POST request of an email and sends it on the specified time we want.
 
 # The apps installation
-- to run the app
-flask run
+- to run the app : 
+`flask run`
 
-- to make database
-flask db init
+- to make database : 
+`flask db init`
 
-- to create database migration
-flask db migrate
+- to create database migration : 
+`flask db migrate`
 
-- to update the migration to the database
-flask db upgrade
+- to update the migration to the database : 
+`flask db upgrade`
 
 - after that you'll need to fix the config with your own email
 
 # The app endpoints
-/ or /index for homepage
+- for homepage : `/` or `/index`
 
-/email for POST form
+- for POST form : `/email`
 
-/save_emails for the POST endpoint
+- for the POST endpoint : `/save_emails`
 
-- you can also use /save_emails directly with POST
+- you can also use `/save_emails` directly with POST
